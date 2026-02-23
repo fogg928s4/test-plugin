@@ -4,7 +4,7 @@
  * Plugin Name: Hola Potrillo
  * Description: Another plugin that tries to emulate Hello Dolly. However, it takes different lyrics from Aleajandro Fernandez
  * Author: Jose M
- * version: 1.0.0
+ * version: 1.4.0
  * Text-Domain: hola-potrillo
  */
 
