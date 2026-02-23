@@ -14,14 +14,20 @@ if (!defined('ABSPATH')) {
 
 function get_phrase() {
     $phrases = array(
-        "Me dediqué a perderte, y me ausenté en momentos que se han ido para siempre... me dediqué a no verte",
-        "Como quien pierde una estrella, que se va y no volverá, así se fue mi esperanza",
-        "Mátalas con una sobredosis de ternura... mátalas con flores, con canciones",
+        "Me dediqué a perderte",
+        "me ausenté en momentos que se han ido para siempre...",
+        "me dediqué a no verte",
+        "Como quien pierde una estrella",
+        "que se va y no volverá, así se fue mi esperanza",
+        "Mátalas con una sobredosis de ternura...", 
+        "Mátalas con flores, con canciones",
         "Y si un día glorioso en tus brazos acabo, qué felicidad... eso y más",
         "Si tú supieras, que tu recuerdo me acaricia como el viento...",
         "¡Ay amor! No cabe duda que sigo siendo sentimental...",
-        "Que seas muy feliz, mucho muy feliz, pero muy feliz, Pa' que no regreses",
-        "Fuiste ave de paso, y no sé por qué razón me fui acostumbrando cada día más a ti"
+        "Que seas muy feliz, mucho muy feliz, pero muy feliz",
+        "Pa' que no regreses",
+        "Fuiste ave de paso", 
+        "No sé por qué razón me fui acostumbrando cada día más a ti"
     );
     // returns a random phrase
     return $phrases[random_int(0, count($phrases)-1)];
