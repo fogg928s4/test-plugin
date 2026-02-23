@@ -36,8 +36,8 @@ function potrillo_css() {
     echo "
 	<style type='text/css'>
 	#potrillo {
-		float: left;
-		padding-left: 15px;
+		float: right;
+		padding-right: 15px;
 		padding-top: 5px;
 		margin: 0;
 		font-size: 11px;
